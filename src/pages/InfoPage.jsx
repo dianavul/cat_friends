@@ -4,6 +4,7 @@ import { Button } from "reactstrap";
 function InfoPage() {
 	const navigate = useNavigate();
 	const goToList = () => {
+        //COD
 		navigate("/cats");
 	};
 	return (

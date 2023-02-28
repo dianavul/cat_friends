@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Input, Card, Container, Row, Col, Button } from "reactstrap";
-import { Link } from "react-router-dom";
+
 import CatComponent from "../components/CatComponent";
 function HomePage() {
 	const [searchText, setSearchText] = useState("");
